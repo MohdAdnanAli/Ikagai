@@ -11,7 +11,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #f7f7f7;
+  background: #dcbcff;
   padding: 0 10px;
 }
 .wrapper {
@@ -19,8 +19,8 @@ body{
   width: 100vw; /* 100% of viewport width */
   height: 100vh; /* 100% of viewport height */
   border-radius: 16px;
-  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
-              0 32px 64px -48px rgba(0,0,0,0.5);
+  box-shadow: 0 0 128px 0 rgba(47, 255, 168, 0.1),
+              0 32px 64px -48px rgba(136, 121, 248, 0.5);
   position: fixed;
   top: 0;
   left: 0;
