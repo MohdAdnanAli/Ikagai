@@ -6,6 +6,7 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+/*
 body{
   display: flex;
   align-items: center;
@@ -16,8 +17,8 @@ body{
 }
 .wrapper {
   background: #fff;
-  width: 100vw; /* 100% of viewport width */
-  height: 100vh; /* 100% of viewport height */
+  width: 100vw; 
+  height: 100vh;  100% of viewport height 
   border-radius: 16px;
   box-shadow: 0 0 128px 0 rgba(47, 255, 168, 0.1),
               0 32px 64px -48px rgba(136, 121, 248, 0.5);
@@ -25,6 +26,38 @@ body{
   top: 0;
   left: 0;
 }
+*/
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #8a63d2; /* Change to your preferred shade of purple */
+  margin: 0; /* Remove padding */
+  font-family: Arial, Helvetica, sans-serif; /* Add a professional font */
+}
+
+.wrapper {
+  background: #060505; /* Change to your preferred background color */
+  color: #ffffff; /* Change to a professional text color */
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Slightly adjust the box shadow */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.link {
+  color: #007bff; /* Bright blue color, you can adjust the hex code as needed */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.link:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
 
 
 /* Login & Signup Form CSS Start */
@@ -110,7 +143,7 @@ body{
   font-size: 17px;
 }
 .form .link a{
-  color: #333;
+  color: #0068fa;
 }
 .form .link a:hover{
   text-decoration: underline;
@@ -142,7 +175,7 @@ body{
   align-items: center;
 }
 :is(.users, .users-list) .content .details{
-  color: #000;
+  color: #ffffff;
   margin-left: 20px;
 }
 :is(.users, .users-list) .details span{
@@ -230,7 +263,7 @@ body{
   width: 40px;
 }
 .users-list a .details p{
-  color: #67676a;
+  color: #9f91f4;
 }
 .users-list a .status-dot{
   font-size: 12px;
@@ -248,7 +281,7 @@ body{
   padding: 18px 30px;
 }
 .chat-area header .back-icon{
-  color: #333;
+  color: #10f236;
   font-size: 18px;
 }
 .chat-area header img{
